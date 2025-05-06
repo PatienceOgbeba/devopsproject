@@ -1,0 +1,181 @@
+
+- command: git clone https://github.com/PatienceOgbeba/devopsproject.git                                                                                                                                                                                                     Cloning into 'devopsproject'...                                                                                                                                                                                                                                                         warning: You appear to have cloned an empty repository.
+  exit_code: 0
+  shell: bash
+  session_id: 8d229fd1c1814754ac91e29ac885c79e
+  cwd: /home/cloudshell-user
+  time: 1746309493
+- command: cd devopsproject
+  exit_code: 0
+  shell: bash
+  session_id: 8d229fd1c1814754ac91e29ac885c79e
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746309543
+- command: ls
+  exit_code: 0
+  shell: bash
+  session_id: 8d229fd1c1814754ac91e29ac885c79e
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746310260
+- command: ls
+  exit_code: 0
+  shell: bash
+  session_id: 8d229fd1c1814754ac91e29ac885c79e
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746310330
+- command: unzip nodejs-blue.zip                                                                                                                                                                                                                                              Archive:  nodejs-blue.zip                                                                                                                                                                                                                                                                  inflating: nodejs-blue/EBSampleApp-Nodejs.iml                                                                                                                                                                                                                                            inflating: nodejs-blue/app.js                                                                                                                                                                                                                                                            inflating: nodejs-blue/cron.yaml                                                                                                                                                                                                                                                         inflating: nodejs-blue/index.html                                                                                                                                                                                                                                                        inflating: nodejs-blue/package.json
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user
+  time: 1746310462
+- command: ls                                                                                                                                                                                                                                                                 devopsproject  nodejs-blue  nodejs-blue.zip
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user
+  time: 1746310471
+- command: cp nodejs-blue/* devopsproject/
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user
+  time: 1746310558
+- command: cd devopsproject/
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746310600
+- command: ls                                                                                                                                                                                                                                       app.js  cron.yaml  EBSampleApp-Nodejs.iml  index.html  package.json
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746310618
+- command: git add -A
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746310658
+- command: git commit -m \"updated index file\"                                                                                                                                                                                                       Author identity unknown                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           *** Please tell me who you are.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Run                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 git config --global user.email \"you@example.com\"                                                                                                                                                                                                                                         git config --global user.name \"Your Name\"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       to set your account's default identity.                                                                                                                                                                                                                                                  Omit --global to set the identity only in this repository.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        fatal: empty ident name (for <cloudshell-user@ip-10-132-51-237.ec2.internal>) not allowed
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746310690
+- command: git config --global user.email \"soniaogbeba@gmail.com\"
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746310803
+- command: git add -A
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746310835
+- command: git commit -m \"updated index file\"                                                                                                                                                                                                       Author identity unknown                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           *** Please tell me who you are.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Run                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 git config --global user.email \"you@example.com\"                                                                                                                                                                                                                                         git config --global user.name \"Your Name\"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       to set your account's default identity.                                                                                                                                                                                                                                                  Omit --global to set the identity only in this repository.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        fatal: empty ident name (for <soniaogbeba@gmail.com>) not allowed
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746310856
+- command: Omit --global                                                                                                                                                                                                                            bash: Omit: command not found
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746310904
+- command: git config --global user.email \"soniaogbeba@gmail.com\"
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746310971
+- command: git config --global user.name \"Patience Ogbeba\"
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746311018
+- command: git add -A
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746311051
+- command: git commit -m \"updated index file\"                                                                                                                                                                                                       [main (root-commit) 94486dd] updated index file                                                                                                                                                                                                                                           5 files changed, 163 insertions(+)                                                                                                                                                                                                                                                       create mode 100644 EBSampleApp-Nodejs.iml                                                                                                                                                                                                                                                create mode 100644 app.js                                                                                                                                                                                                                                                                create mode 100644 cron.yaml                                                                                                                                                                                                                                                             create mode 100644 index.html                                                                                                                                                                                                                                                            create mode 100644 package.json
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746311085
+- command: git push                                                                                                                                                                                                                                 Username for 'https://github.com': PatienceOgbeba                                                                                                                                                                                                                                        Password for 'https://PatienceOgbeba@github.com':                                                                                                                                                                                                                                        remote: Support for password authentication was removed on August 13, 2021.                                                                                                                                                                                                              remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.                                                                                      fatal: Authentication failed for 'https://github.com/PatienceOgbeba/devopsproject.git/'
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746311157
+- command: git push                                                                                                                                                                                                                                 Username for 'https://github.com': PatienceOgbeba                                                                                                                                                                                                                                        Password for 'https://PatienceOgbeba@github.com':                                                                                                                                                                                                                                        Enumerating objects: 7, done.                                                                                                                                                                                                                                                            Counting objects: 100% (7/7), done.                                                                                                                                                                                                                                                      Delta compression using up to 2 threads                                                                                                                                                                                                                                                  Compressing objects: 100% (7/7), done.                                                                                                                                                                                                                                                   Writing objects: 100% (7/7), 2.21 KiB | 2.21 MiB/s, done.                                                                                                                                                                                                                                Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)                                                                                                                                                                                                                            To https://github.com/PatienceOgbeba/devopsproject.git                                                                                                                                                                                                                                    * [new branch]      main -> main
+  exit_code: 0
+  shell: bash
+  session_id: c78a8ed27ebe4a4987d58e7924c47247
+  cwd: /home/cloudshell-user/devopsproject
+  time: 1746311318
+- command: git add remote origin https://github.com/PatienceOgbeba/devopsproject.git                                                                                                                                                                                     fatal: not a git repository (or any parent up to mount point /home)                                                                                                                                                                                                                 Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+  exit_code: 0
+  shell: bash
+  session_id: 8729892fba3141e9a1083aff4294c8c9
+  cwd: /home/cloudshell-user
+  time: 1746529248
+- command: git pull                                                                                                                                                                                                                                                      fatal: not a git repository (or any parent up to mount point /home)                                                                                                                                                                                                                 Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+  exit_code: 0
+  shell: bash
+  session_id: 8729892fba3141e9a1083aff4294c8c9
+  cwd: /home/cloudshell-user
+  time: 1746529404
+- command: git init                                                                                                                                                                                                                                                      hint: Using 'master' as the name for the initial branch. This default branch name                                                                                                                                                                                                   hint: is subject to change. To configure the initial branch name to use in all                                                                                                                                                                                                      hint: of your new repositories, which will suppress this warning, call:                                                                                                                                                                                                             hint:                                                                                                                                                                                                                                                                               hint: \t git config --global init.defaultBranch <name>                                                                                                                                                                                                                               hint:                                                                                                                                                                                                                                                                               hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and                                                                                                                                                                                                             hint: 'development'. The just-created branch can be renamed via this command:                                                                                                                                                                                                       hint:                                                                                                                                                                                                                                                                               hint: \t git branch -m <name>                                                                                                                                                                                                                                                        Initialized empty Git repository in /home/cloudshell-user/.git/
+  exit_code: 0
+  shell: bash
+  session_id: 8729892fba3141e9a1083aff4294c8c9
+  cwd: /home/cloudshell-user
+  time: 1746529450
+- command: git remote add origin https://github.com/PatienceOgbeba/devopsproject.git
+  exit_code: 0
+  shell: bash
+  session_id: 8729892fba3141e9a1083aff4294c8c9
+  cwd: /home/cloudshell-user
+  time: 1746529534
+- command: git add .                                                                                                                                                                                                                                                     warning: adding embedded git repository: devopsproject                                                                                                                                                                                                                              hint: You've added another git repository inside your current repository.                                                                                                                                                                                                           hint: Clones of the outer repository will not contain the contents of                                                                                                                                                                                                               hint: the embedded repository and will not know how to obtain it.                                                                                                                                                                                                                   hint: If you meant to add a submodule, use:                                                                                                                                                                                                                                         hint:                                                                                                                                                                                                                                                                               hint: \t git submodule add <url> devopsproject                                                                                                                                                                                                                                       hint:                                                                                                                                                                                                                                                                               hint: If you added this path by mistake, you can remove it from the                                                                                                                                                                                                                 hint: index with:                                                                                                                                                                                                                                                                   hint:                                                                                                                                                                                                                                                                               hint: \t git rm --cached devopsproject                                                                                                                                                                                                                                               hint:                                                                                                                                                                                                                                                                               hint: See \"git help submodule\" for more information.                                                                                                                                                                                                                                hint: Disable this message with \"git config advice.addEmbeddedRepo false\"
+  exit_code: 0
+  shell: bash
+  session_id: 8729892fba3141e9a1083aff4294c8c9
+  cwd: /home/cloudshell-user
+  time: 1746529545
+- command: unzip updated-nodejs-blue.zip                                                                                                                                                                                                                                                   Archive:  updated-nodejs-blue.zip                                                                                                                                                                                                                                                   replace nodejs-blue/EBSampleApp-Nodejs.iml? [y]es, [n]o, [A]ll, [N]one, [r]ename: y                                                                                                                                                                                                   inflating: nodejs-blue/EBSampleApp-Nodejs.iml                                                                                                                                                                                                                                     replace nodejs-blue/app.js? [y]es, [n]o, [A]ll, [N]one, [r]ename: y                                                                                                                                                                                                                   inflating: nodejs-blue/app.js                                                                                                                                                                                                                                                     replace nodejs-blue/cron.yaml? [y]es, [n]o, [A]ll, [N]one, [r]ename: y                                                                                                                                                                                                                inflating: nodejs-blue/cron.yaml                                                                                                                                                                                                                                                  replace nodejs-blue/index.html? [y]es, [n]o, [A]ll, [N]one, [r]ename: y                                                                                                                                                                                                               inflating: nodejs-blue/index.html                                                                                                                                                                                                                                                 replace nodejs-blue/package.json? [y]es, [n]o, [A]ll, [N]one, [r]ename: y                                                                                                                                                                                                             inflating: nodejs-blue/package.json
+  exit_code: 0
+  shell: bash
+  session_id: 9106125d0f824417b1be2339f9241701
+  cwd: /home/cloudshell-user
+  time: 1746530084
+- command: cp updated-nodejs-blue.zip/* devopsproject                                                                                                                                                                                                                    cp: cannot stat 'updated-nodejs-blue.zip/*': Not a directory
+  exit_code: 0
+  shell: bash
+  session_id: 9106125d0f824417b1be2339f9241701
+  cwd: /home/cloudshell-user
+  time: 1746530261
+- command: cp updated-nodejs-blue.zip/* devopsproject/                                                                                                                                                                                                                   cp: cannot stat 'updated-nodejs-blue.zip/*': Not a directory
+  exit_code: 0
+  shell: bash
+  session_id: 9106125d0f824417b1be2339f9241701
+  cwd: /home/cloudshell-user
+  time: 1746530292
+- command: git add                                                                                                                                                                                                                                                       Nothing specified, nothing added.                                                                                                                                                                                                                                                   hint: Maybe you wanted to say 'git add .'?                                                                                                                                                                                                                                          hint: Disable this message with \"git config advice.addEmptyPathspec false\"
+  exit_code: 0
+  shell: bash
+  session_id: 9106125d0f824417b1be2339f9241701
+  cwd: /home/cloudshell-user
+  time: 1746530459
